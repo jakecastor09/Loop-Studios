@@ -1,0 +1,39 @@
+.navbar {
+  transform: translateY(5rem);
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Alata';
+  &__logo {
+    font-size: 4.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+  }
+  &__items {
+    display: flex;
+    font-size: 1.8rem;
+  }
+  &__item {
+    margin: 0 2rem;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      bottom: -25%;
+      left: 50%;
+      content: '';
+      width: 45%;
+      transform: translate(-50%, -50%);
+      height: 0.2rem;
+      background-color: #fff;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    &:hover::after {
+      opacity: 1;
+    }
+  }
+}
