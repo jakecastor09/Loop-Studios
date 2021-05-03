@@ -1,5 +1,5 @@
 .navbar {
-  transform: translateY(5rem);
+  transform: translateY(4.2rem);
   position: relative;
   z-index: 5;
   display: flex;
@@ -7,17 +7,17 @@
   justify-content: space-between;
   font-family: 'Alata';
   &__logo {
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 600;
     cursor: pointer;
     color: #fff;
   }
   &__items {
     display: flex;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   &__item {
-    margin: 0 2rem;
+    margin: 0 1.5rem;
     position: relative;
 
     &::after {

@@ -1,7 +1,9 @@
 .header {
-  height: 80vh;
-  background-image: url(../images/image-hero.jpg);
+  height: 65rem;
+  background-image: url(../../../images/desktop/image-hero.jpg);
   background-size: cover;
+  background-position: center;
+
   position: relative;
   &__overlay {
     background-color: rgba(0, 0, 0, 0.4);
@@ -13,13 +15,13 @@
   }
   &__content {
     position: relative;
-    max-width: 75rem;
+    max-width: 65rem;
     border: 0.2rem solid #fff;
-    padding: 4.5rem;
-    transform: translateY(70%);
+    padding: 3rem;
+    transform: translateY(56%);
 
     &--title {
-      font-size: 8rem;
+      font-size: 7.2rem;
       font-weight: 100;
       text-transform: uppercase;
       line-height: 1;
